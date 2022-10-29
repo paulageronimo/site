@@ -30,5 +30,6 @@ module.exports = {
         icon: `src/images/favicon.gif`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`, // Added new plugin
   ],
 }
