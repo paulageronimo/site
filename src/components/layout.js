@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 
-// import GlobalStyle from "./globalStyle"
-// import Header from "./header"
-// import Footer from "./footer"
+import GlobalStyle from "./globalStyle"
+import Header from "./header"
+import Footer from "./footer"
 
 const StyledLayout = styled.div`
   width: 100%;
@@ -23,10 +23,10 @@ const StyledLayout = styled.div`
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
-      {/* <GlobalStyle /> */}
-      {/* <Header /> */}
+      <GlobalStyle />
+      <Header />
       <main id="main-content">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </StyledLayout>
   )
 }
